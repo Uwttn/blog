@@ -1,3 +1,17 @@
+/* This is all of the header */
+nav {
+    background-color: goldenrod;
+    border: solid green 5px;
+    display: flex;
+    justify-content: flex-end;
+    
+    li {
+        display: inline;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+}
+
 #portfolio {
     border: solid black 20px;
     width: 300px;
