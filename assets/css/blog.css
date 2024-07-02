@@ -12,8 +12,35 @@ nav {
     }
 }
 
-#portfolio {
-    border: solid black 20px;
-    width: 300px;
-    height: auto;
+/* This is all of the main content from the middle */
+main {
+    background-color: burlywood;
+    Border: solid rgba(2, 91, 244, 0.9) 5px;
+    display: inline-flex;
+    flex-direction: row;
+
+    h1 {
+        text-align: center;
+    }
+
+    img {
+        position: relative;
+        height: 350px;
+        width: auto;
+        border: solid white 5px;
+    }
+
+    section {
+        padding-left: 15px;
+        flex-direction: column;
+    }
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+
+        img {
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+    }
 }
