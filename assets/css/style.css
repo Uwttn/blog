@@ -1,9 +1,8 @@
-#dark {
-
-    /* This is all of the header */
+/* This is all of the header */
+.dark {
     nav {
         background-color: rgba(23, 23, 23, 0.987);
-        border: solid rgb(255, 255, 255) 5px;
+        border: solid rgb(255, 255, 255) 5px 5px 0 5px;
         display: flex;
         justify-content: space-between;
 
