@@ -7,45 +7,53 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/dark.css">
 </head>
 
 <body>
-    <nav>
-        <label class="switch col">
-            <input type="checkbox" id="theme-switcher">
-            <span class="slider round"></span>
-        </label>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./blog.html">Blog</a></li>
-        </ul>
-    </nav>
-    <main>
-        <!-- Left section -->
-        <section>
-            <h1>My first blog</h1>
-        </section>
-<!-- right section -->
- <div>
-    <ul>
-        <label><li>Username</li></label>
-        <input type="text" id="Username" name="Username">
-        <br>
-        <label><li>Title</li></label>
-        <input type="text" id="title" name="title">
-        <br>
-        <label><li>Content</li></label>
-        <textarea type="text" id="content" name="content"></textarea>
-        <br>
-        <button>submit</button>
-    </ul>
- </div>
-        
-    </main>
-    <footer>
-        
-    </footer>
-<script></script>
+    <div id="dark">
+        <nav>
+            <label>
+                <input type="checkbox">
+            </label>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <main>
+            <!-- Left section -->
+            <section>
+                <h1>My first blog</h1>
+            </section>
+            <!-- right section -->
+            <div>
+                <ul>
+                    <label>
+                        <li>Username</li>
+                    </label>
+                    <input type="text" id="Username" name="Username">
+                    <br>
+                    <label>
+                        <li>Title</li>
+                    </label>
+                    <input type="text" id="title" name="title">
+                    <br>
+                    <label>
+                        <li>Content</li>
+                    </label>
+                    <textarea type="text" id="content" name="content"></textarea>
+                    <br>
+                    <button>submit</button>
+                </ul>
+            </div>
+
+        </main>
+        <footer>
+
+        </footer>
+        <script src="./assets/js/logic.js"></script>
+    </div>
 </body>
 
 </html>
