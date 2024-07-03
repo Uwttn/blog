@@ -19,5 +19,13 @@ const formSubmit = function (event) {
 // console.log(objective)
 storeData(objective) 
 }
-
+const storeData = function (data) {
+    // console.log(data)
+    const existingPost = readData()
+    existingPost.push(data)
+    // console.log(existingPost)
+    const stringedData = JSON.stringify(existingPost);
+    console.log(stringedData)
+    localStorage.setItem('dataArray', stringedData)
+}
 submmitBtn.addEventListener('click', formSubmit) 
