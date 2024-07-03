@@ -9,6 +9,11 @@
         label {
             display: flex;
             padding-left: 20px;
+
+            h3 {
+                padding-left: 5px;
+                vertical-align: middle;
+            }
         }
 
         li {
