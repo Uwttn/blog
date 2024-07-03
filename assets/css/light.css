@@ -21,7 +21,6 @@
 
     /* Big Box */
     main {
-        border: solid black 5px;
         display: flex;
         background-color: rgba(220, 213, 213, 0.562);
         height: 800px;
