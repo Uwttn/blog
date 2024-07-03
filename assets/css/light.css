@@ -45,7 +45,7 @@
 
         /* Square on the right */
         div {
-            border-left: solid rgb(0, 0, 0) 5px;
+            border: solid rgb(0, 0, 0) 5px;
             background-color: rgba(194, 180, 170, 0.828);
             flex: auto;
             flex-direction: column;

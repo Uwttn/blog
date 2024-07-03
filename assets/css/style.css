@@ -49,7 +49,7 @@
 
         /* Square on the right */
         div {
-            border-left: solid black 5px;
+            border: solid black 5px;
             flex: auto;
             flex-direction: column;
             display: flex;
