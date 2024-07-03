@@ -1,4 +1,5 @@
- /* This is all of the header */
+#light{
+/* This is all of the header */
  nav {
      background-color: rgb(189, 183, 167);
      border: solid rgb(1, 1, 1) 5px;
@@ -58,3 +59,4 @@
      border-left: black solid 5px;
      border-right: black solid 5px;
  }
+}
