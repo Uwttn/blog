@@ -1,19 +1,51 @@
-/* This is all of the header */
-nav {
-    background-color: goldenrod;
-    border: solid green 5px;
-    display: flex;
-    justify-content: flex-end;
-    
-    li {
-        display: inline;
-        padding-left: 10px;
-        padding-right: 20px;
-    }
-}
+ /* This is all of the header */
+    nav {
+        background-color: rgb(189, 183, 167);
+        border: solid rgb(1, 1, 1) 5px;
+        display: flex;
+        justify-content: flex-end;
 
-#portfolio {
-    border: solid black 20px;
-    width: 300px;
-    height: auto;
-}
+        li {
+            display: inline;
+            padding-left: 10px;
+            padding-right: 20px;
+        }
+    }
+    /* Big Box */
+    main {
+        border: solid black 5px;
+        display: flex;
+        background-color: rgba(220, 213, 213, 0.562);
+
+        /* Circle */
+        section {
+            background-color: rgba(179, 179, 179, 0.853);
+            border: solid black 5px;
+            height: 600px;
+            width: 600px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Square on the right */
+        div {
+            border-left: solid rgb(0, 0, 0) 5px;
+            background-color: rgba(194, 180, 170, 0.828);
+            flex: auto;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        li {
+            list-style-type: none;
+        }
+    }
+    footer {
+        background-color: rgb(222, 188, 188);
+        height: 100px;
+        border-bottom: black solid 5px;
+    }
