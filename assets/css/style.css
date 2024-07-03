@@ -5,6 +5,10 @@
         display: flex;
         justify-content: flex-end;
 
+        div {
+            display: flex;
+        }
+
         li {
             display: inline;
             padding-left: 10px;
@@ -47,5 +51,5 @@
     footer {
         background-color: rgb(222, 188, 188);
         height: 100px;
-        border-bottom: black solid 5px;
+        border: black solid 0 5px 5px 5px;
     }
