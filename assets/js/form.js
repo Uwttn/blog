@@ -17,17 +17,23 @@ const formSubmit = function (event) {
         alert("Incomplete, please fill out the form");
     } else if (content == "" || content.trim() == " ") {
         alert("Incomplete, please fill out the form");
-    } else { alert("Form submitted successfully"); }
+    } else { alert("Form submitted successfully");
 
-    // create object to store in local storage
-    const objective = {
-            userName: userName,
-            title: title,
-            content: content,
-        }
+        let newTab = document.createElement('a');
+        newTab.href = "./blog.html";
+        newTab.target = "_blank";
+        newTab.click();
+}
 
-    // console.log(objective)
-    storeData(objective)
+// create object to store in local storage
+const objective = {
+    userName: userName,
+    title: title,
+    content: content,
+}
+
+// console.log(objective)
+storeData(objective)
 }
 const storeData = function (data) {
     // console.log(data)
@@ -40,5 +46,4 @@ const storeData = function (data) {
 }
 
 submmitBtn.addEventListener('click', formSubmit)
-
 
