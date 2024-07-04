@@ -2,7 +2,6 @@
 .light {
     nav {
         background-color: rgb(189, 183, 167);
-        border: solid rgb(1, 1, 1) 5px;
         display: flex;
         justify-content: space-between;
 
@@ -25,6 +24,7 @@
 
     /* Big Box */
     main {
+        border: black solid 5px;
         display: flex;
         background-color: rgba(220, 213, 213, 0.562);
         height: 800px;
@@ -64,6 +64,8 @@
     footer {
         background-color: rgb(222, 188, 188);
         height: 100px;
-        border: black 5px solid;
+        border-bottom: black solid 5px;
+        border-left: black solid 5px;
+        border-right: black solid 5px;
     }
 }
