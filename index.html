@@ -4,56 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/dark.css">
+    <link id="light" rel="stylesheet" href="./assets/css/light.css">
+    <link id="dark" rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body>
-    <div id="dark">
-        <nav>
-            <label>
-                <input type="checkbox">
-            </label>
+<body class="container dark light">
+    <nav>
+        <label>
+            <input type="checkbox" id="theme-switcher">
+            <h3>Theme Switch</h3>
+        </label>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Left section -->
+        <section>
+            <h1>My first blog</h1>
+        </section>
+        <!-- right section -->
+        <div>
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./blog.html">Blog</a></li>
+                <label>
+                    <li>Username</li>
+                </label>
+                <input type="text" id="username" name="Username">
+                <br>
+                <label>
+                    <li>Title</li>
+                </label>
+                <input type="text" id="title" name="title">
+                <br>
+                <label>
+                    <li>Content</li>
+                </label>
+                <textarea type="text" id="content" name="content"></textarea>
+                <br>
+                <button id="button">submit</button>
             </ul>
-        </nav>
-        <main>
-            <!-- Left section -->
-            <section>
-                <h1>My first blog</h1>
-            </section>
-            <!-- right section -->
-            <div>
-                <ul>
-                    <label>
-                        <li>Username</li>
-                    </label>
-                    <input type="text" id="Username" name="Username">
-                    <br>
-                    <label>
-                        <li>Title</li>
-                    </label>
-                    <input type="text" id="title" name="title">
-                    <br>
-                    <label>
-                        <li>Content</li>
-                    </label>
-                    <textarea type="text" id="content" name="content"></textarea>
-                    <br>
-                    <button>submit</button>
-                </ul>
-            </div>
+        </div>
 
-        </main>
-        <footer>
+    </main>
+    <footer>
 
-        </footer>
-        <script src="./assets/js/logic.js"></script>
-    </div>
+    </footer>
+    <script src="./assets/js/read.js"></script>
+    <script src="./assets/js/logic.js"></script>
+    <script src="./assets/js/form.js"></script>
 </body>
 
 </html>

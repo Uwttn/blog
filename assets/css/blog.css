@@ -1,0 +1,90 @@
+/* This is all of the header */
+nav {
+    background-color: black;
+    border: solid white 5px;
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        background-color: rgb(62, 78, 255);
+        color: yellow;
+    }
+
+    li {
+        display: inline-flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 20px;
+
+        a {
+            color: white;
+        }
+    }
+}
+
+
+
+main {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 500px;
+    border: solid white 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @media (max-width: 840px) {
+        display: inline-flex;
+        height: auto;
+    }
+
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+p {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+section {
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 5px white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    height: 500px;
+    color: white;
+
+    @media (max-width: 840px) {
+        display: inline-flex;
+        height: auto;
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: yellow;
+    height: 50px;
+h1 {
+    color: yellow;
+}
+    a {
+        color: white;
+    }
+}
