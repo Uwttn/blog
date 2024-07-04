@@ -6,7 +6,8 @@ nav {
     justify-content: flex-end;
 
     button {
-        background-color: darkgrey;
+        background-color: rgb(62, 78, 255);
+        color: yellow;
     }
 
     li {
@@ -51,12 +52,12 @@ p {
     color: white;
 }
 
-h6 {
+h2 {
     color: white;
     text-align: center;
 }
 
-footer {
+section {
     padding-left: 20px;
     padding-right: 20px;
     border: solid 5px white;
@@ -71,5 +72,19 @@ footer {
     @media (max-width: 840px) {
         display: inline-flex;
         height: auto;
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: yellow;
+    height: 50px;
+h1 {
+    color: yellow;
+}
+    a {
+        color: white;
     }
 }
